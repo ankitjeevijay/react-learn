@@ -1,11 +1,22 @@
 
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './Components/Home';
+import Header from './Components/Header';
+import About from './Components/About';
+import PageNotFound from './Components/PageNotFound';
 
 function App() {
   return (
     <>
-    <h1 className='head'>hello This is First page</h1>
-    <img src="/logo192.png" alt="logo" />
+    <Header/>
+    <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/about' element={<About/>}/>
+      
+      {/* page Not Found always use in bottom */}
+      <Route path='*' element={<PageNotFound/>}/>
+    </Routes>
     </>
   );
 }
