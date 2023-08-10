@@ -1,5 +1,16 @@
 import React from 'react'
-import CState from './CState'
+//import UseEffect from './Hooks/UseEffect'
+//import UseEffect1 from './Hooks/UseEffect1'
+//import UseEffect2 from './Hooks/UseEffect2'
+import Display from './CrudOperation/Display'
+import Insert from './CrudOperation/Insert'
+//import Constractor from './lifecycleMethod/Constractor'
+//import Render1 from './lifecycleMethod/Render1'
+//import ComponentDidmount from './lifecycleMethod/ComponentDidmount'
+//import PropsOne from './Props/PropsOne'
+//import HideAndShowToggle from './Props/HideAndShowToggle'
+//import UseState from './Hooks/UseState'
+// import CState from './CState'
 //import User from './User'
 //import RegistrationForm from './RegistrationForm'
 
@@ -9,7 +20,7 @@ import CState from './CState'
 
 
 const Home = () => {
-  let name = 'ankit kumar'
+  // let name = 'ankit kumar'
   return (
     <>
     {/* <Click/> */}
@@ -17,7 +28,18 @@ const Home = () => {
     {/* <Condition/> */}
     {/* <RegistrationForm/> */}
     {/* <User n={name}/> */}
-    <CState/>
+    {/* <CState/> */}
+    {/* <Constractor/> */}
+    {/* <Render1/> */}
+    {/* <ComponentDidmount/> */}
+    {/* <PropsOne/> */}
+    {/* <HideAndShowToggle/> */}
+    {/* <UseState/> */}
+    {/* <UseEffect/> */}
+    {/* <UseEffect1/> */}
+    {/* <UseEffect2/> */}
+    {/* <Display/> */}
+    <Insert/>
 
     </>
   )
