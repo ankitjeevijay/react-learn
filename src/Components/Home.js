@@ -2,8 +2,10 @@ import React from 'react'
 //import UseEffect from './Hooks/UseEffect'
 //import UseEffect1 from './Hooks/UseEffect1'
 //import UseEffect2 from './Hooks/UseEffect2'
-import Display from './CrudOperation/Display'
-import Insert from './CrudOperation/Insert'
+//import Display from './CrudOperation/Display'
+//import Insert from './CrudOperation/Insert'
+import NestedList from './Hooks/NestedList'
+import ShowApi from './Hooks/ShowApi'
 //import Constractor from './lifecycleMethod/Constractor'
 //import Render1 from './lifecycleMethod/Render1'
 //import ComponentDidmount from './lifecycleMethod/ComponentDidmount'
@@ -39,7 +41,9 @@ const Home = () => {
     {/* <UseEffect1/> */}
     {/* <UseEffect2/> */}
     {/* <Display/> */}
-    <Insert/>
+    {/* <Insert/> */}
+    {/* <NestedList/> */}
+    <ShowApi/>
 
     </>
   )
