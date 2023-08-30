@@ -1,11 +1,15 @@
 import React from 'react'
+import SendDataChild from './Props/SendDataChild'
+//import Bootstrap from './Bootstrap/Bootstrap'
+//import ReuseComponents from './ReuseComponents'
 //import UseEffect from './Hooks/UseEffect'
 //import UseEffect1 from './Hooks/UseEffect1'
 //import UseEffect2 from './Hooks/UseEffect2'
 //import Display from './CrudOperation/Display'
 //import Insert from './CrudOperation/Insert'
-import NestedList from './Hooks/NestedList'
-import ShowApi from './Hooks/ShowApi'
+//import NestedList from './Hooks/NestedList'
+//import ShowApi from './Hooks/ShowApi'
+//import OurApi from './Hooks/OurApi'
 //import Constractor from './lifecycleMethod/Constractor'
 //import Render1 from './lifecycleMethod/Render1'
 //import ComponentDidmount from './lifecycleMethod/ComponentDidmount'
@@ -22,7 +26,18 @@ import ShowApi from './Hooks/ShowApi'
 
 
 const Home = () => {
-  // let name = 'ankit kumar'
+   //let name = 'ankit kumar'
+  // const user =[
+  //   {name:'ankit',email:'ankit@gmail.com',phone:9943543423},
+  //   {name:'vijay',email:'vijay@gmail.com',phone:9943543423},
+  //   {name:'abhishek',email:'abhishek@gmail.com',phone:9943543423},
+  //   {name:'ravi',email:'ravi@gmail.com',phone:9943543423},
+  //   {name:'sachin',email:'sachin@gmail.com',phone:9943543423},
+  //   {name:'daya',email:'daya@gmail.com',phone:9943543423}
+  // ]
+  const parent = (user)=>{
+    alert(user.name)
+  }
   return (
     <>
     {/* <Click/> */}
@@ -43,7 +58,19 @@ const Home = () => {
     {/* <Display/> */}
     {/* <Insert/> */}
     {/* <NestedList/> */}
-    <ShowApi/>
+    {/* <ShowApi/> */}
+    {/* <OurApi/> */}
+    {/* <Bootstrap/> */}
+    {/* {
+      user.map((item, index)=>
+        // <h1>{item.name}</h1>
+        <ReuseComponents data={item} />
+      )
+    } */}
+    <SendDataChild data={parent}/>
+
+
+
 
     </>
   )
