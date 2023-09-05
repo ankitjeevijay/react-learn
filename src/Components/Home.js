@@ -1,5 +1,13 @@
-import React from 'react'
-import SendDataChild from './Props/SendDataChild'
+import React, { useRef } from 'react'
+import UseCallBack from './Hooks/UseCallBack'
+//import UncontrolComponent from './Hooks/UncontrolComponent'
+//import SendDataChild from './Props/SendDataChild'
+//import UseMemo from './Hooks/UseMemo'
+//import UseRef from './Hooks/UseRef'
+//import ForwordRef from './Hooks/ForwordRef'
+//import User from '../Components/Hooks/Crud/user'
+//import Display from './Hooks/Crud/Display'
+//import ControlComponent from './Hooks/ControlComponent'
 //import Bootstrap from './Bootstrap/Bootstrap'
 //import ReuseComponents from './ReuseComponents'
 //import UseEffect from './Hooks/UseEffect'
@@ -35,9 +43,15 @@ const Home = () => {
   //   {name:'sachin',email:'sachin@gmail.com',phone:9943543423},
   //   {name:'daya',email:'daya@gmail.com',phone:9943543423}
   // ]
-  const parent = (user)=>{
-    alert(user.name)
-  }
+  // const parent = (user)=>{
+  //   alert(user.name)
+  // }
+  // let inputRef = useRef()
+  // function updateInput(){
+  //   inputRef.current.value = "1000"
+  //   inputRef.current.style.color = 'red'
+
+  // }
   return (
     <>
     {/* <Click/> */}
@@ -67,8 +81,16 @@ const Home = () => {
         <ReuseComponents data={item} />
       )
     } */}
-    <SendDataChild data={parent}/>
-
+    {/* <SendDataChild data={parent}/> */}
+    {/* <UseMemo/> */}
+    {/* <UseRef/> */}
+    {/* <ForwordRef ref={inputRef} />
+    <button onClick={updateInput}>udate input Box</button> */}
+    {/* <User/>
+    <Display/> */}
+    {/* <ControlComponent/> */}
+    {/* <UncontrolComponent/> */}
+    <UseCallBack/>
 
 
 
