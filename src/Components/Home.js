@@ -1,5 +1,5 @@
-import React, { useRef } from 'react'
-import UseCallBack from './Hooks/UseCallBack'
+//import React, { useRef } from 'react'
+//import UseCallBack from './Hooks/UseCallBack'
 //import UncontrolComponent from './Hooks/UncontrolComponent'
 //import SendDataChild from './Props/SendDataChild'
 //import UseMemo from './Hooks/UseMemo'
@@ -27,6 +27,8 @@ import UseCallBack from './Hooks/UseCallBack'
 // import CState from './CState'
 //import User from './User'
 //import RegistrationForm from './RegistrationForm'
+
+import UseReducer from "./Hooks/UseReducer"
 
 //import Condition from './Condition'
 //import Click from './Click'
@@ -90,7 +92,10 @@ const Home = () => {
     <Display/> */}
     {/* <ControlComponent/> */}
     {/* <UncontrolComponent/> */}
-    <UseCallBack/>
+    {/* <UseCallBack/> */}
+    <UseReducer/>
+    
+
 
 
 
