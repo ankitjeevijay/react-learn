@@ -28,7 +28,10 @@
 //import User from './User'
 //import RegistrationForm from './RegistrationForm'
 
-import UseReducer from "./Hooks/UseReducer"
+import UseContext from "./Hooks/Context/UseContext"
+
+//import A from "./Hooks/Context/A"
+//import UseReducer from "./Hooks/UseReducer"
 
 //import Condition from './Condition'
 //import Click from './Click'
@@ -93,7 +96,9 @@ const Home = () => {
     {/* <ControlComponent/> */}
     {/* <UncontrolComponent/> */}
     {/* <UseCallBack/> */}
-    <UseReducer/>
+    {/* <UseReducer/> */}
+    {/* <A/> */}
+    <UseContext/>
     
 
 
